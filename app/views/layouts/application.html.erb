@@ -18,6 +18,13 @@
   </head>
 
   <body>
+<!--    the most top section of website, "header" contains 2 lines:-->
+<!--    1)-->
+<!--      1.1. clickable main logo to the left (leads to home page)-->
+<!--      1.2. social media iconic links to the right-->
+<!--    2) main menu to navigate around the site-->
+    <%= render partial: "layouts/header" %>
     <%= yield %>
+    <%= render partial: "layouts/footer" %>
   </body>
 </html>
